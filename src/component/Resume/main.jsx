@@ -102,7 +102,7 @@ var Experience  = React.createClass({
     }
 })
 
-fetch('/resume.json')
+fetch('/resume/resume.json')
   .then(function(response) {
     return response.json()
   }).then(function(json) {
