@@ -25,7 +25,7 @@ gulp.task('copy', function(){
     gulp.src(['./src/*.html'])
         .pipe(gulp.dest(DEST))
     // css
-    gulp.src(['./src/style/**/*.(css|scss|less)',
+    gulp.src(['./src/style/**/*.+(css|scss|less)',
             './node_modules/normalize.css/normalize.css'])
             .pipe(gulp.dest(DEST + '/style/'))
     // js
