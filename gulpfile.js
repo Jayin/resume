@@ -3,7 +3,7 @@ var less = require('gulp-less')
 var react = require('gulp-react')
 var LessPluginAutoPrefix = require('less-plugin-autoprefix')
 
-var DEST = 'build'
+var DEST = './build'
 
 gulp.task('jsxtranform', function(){
     gulp.src('./src/**/*.jsx')
@@ -21,8 +21,18 @@ gulp.task('less', function(){
 })
 
 gulp.task('copy', function(){
-    gulp.src('./src/*.html')
+    // html
+    gulp.src(['./src/*.html'])
         .pipe(gulp.dest(DEST))
+    // css
+    gulp.src(['./src/style/**/*.(css|scss|less)',
+            './node_modules/normalize.css/normalize.css'])
+            .pipe(gulp.dest(DEST + '/style/'))
+    // js
+    gulp.src(['./src/script/**/*.js',
+                './node_modules/react/dist/react.js',
+                './node_modules/whatwg-fetch/fetch.js'])
+        .pipe(gulp.dest(DEST + '/script/'))
 })
 
 gulp.task('build', ['jsxtranform', 'less', 'copy'])
