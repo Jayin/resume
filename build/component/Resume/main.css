@@ -1,0 +1,20 @@
+.resume-container {
+  background-color: #fafafa;
+}
+.resume-container header {
+  background-color: black;
+  height: 170px;
+  position: relative;
+}
+.resume-container header img.avatar {
+  border: 4px solid whitesmoke;
+  border-radius: 50%;
+  width: 98px;
+  position: absolute;
+  bottom: -27%;
+  left: 41%;
+}
+.resume-container .basicinfo {
+  text-align: center;
+  padding-top: 60px;
+}

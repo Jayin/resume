@@ -1,0 +1,32 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "on-line resume build in React",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "node_modules/.bin/http-server . -p 3000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jayin/resume.git"
+  },
+  "author": "Jayin Ton",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jayin/resume/issues"
+  },
+  "homepage": "https://github.com/Jayin/resume#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-less": "^3.0.3",
+    "gulp-react": "^3.0.1",
+    "http-server": "^0.8.0",
+    "less-plugin-autoprefix": "^1.4.2"
+  },
+  "dependencies": {
+    "normalize.css": "^3.0.3",
+    "react": "^0.13.3",
+    "whatwg-fetch": "^0.9.0"
+  }
+}
