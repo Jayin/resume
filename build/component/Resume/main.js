@@ -55,7 +55,7 @@ var ExperienceList = React.createClass({displayName: "ExperienceList",
         //     console.log (experience)
         // })
         return (
-            React.createElement("section", null, 
+            React.createElement("section", {className: "experiencelist"}, 
                 React.createElement("div", {className: "experience-type"}, 
                     this.props.type
                 ), 
@@ -77,21 +77,32 @@ var Experience  = React.createClass({displayName: "Experience",
         console.log(this.props.experience)
         return (
             React.createElement("section", {className: "experience"}, 
-                React.createElement("div", {className: "icon"}, 
-                    React.createElement("img", {src: this.props.experience.icon})
-                ), 
-                React.createElement("div", {className: "title"}, 
-                    React.createElement("a", {href: this.props.experience.title_link}, this.props.experience.title)
+                React.createElement("div", {className: "item"}, 
+                    React.createElement("div", {className: "icon fl"}, 
+                        React.createElement("img", {src: this.props.experience.icon})
+                    ), 
+                    React.createElement("div", {className: "fl name-title"}, 
+                        React.createElement("div", {className: "name"}, 
+                            React.createElement("a", {href: this.props.experience.name_link}, this.props.experience.name)
+                        ), 
+                        React.createElement("div", {className: "title"}, 
+                            this.props.experience.title
+                        )
+                    ), 
+                    React.createElement("div", {className: "fr time-location"}, 
+                        React.createElement("div", {className: "time"}, 
+                            this.props.experience.time
+                        ), 
+                        React.createElement("div", {className: "location"}, 
+                            React.createElement("i", {className: "fa fa-map-marker"}), 
+                            this.props.experience.location
+                        )
+                    )
                 ), 
                 React.createElement("div", {className: "description"}, 
                     this.props.experience.description
-                ), 
-                React.createElement("div", {className: "time"}, 
-                    this.props.experience.time
-                ), 
-                React.createElement("div", {className: "location"}, 
-                    this.props.experience.location
                 )
+
             )
         )
     }

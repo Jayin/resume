@@ -55,7 +55,7 @@ var ExperienceList = React.createClass({
         //     console.log (experience)
         // })
         return (
-            <section>
+            <section className="experiencelist">
                 <div className="experience-type">
                     {this.props.type}
                 </div>
@@ -77,21 +77,32 @@ var Experience  = React.createClass({
         console.log(this.props.experience)
         return (
             <section className="experience">
-                <div className="icon">
-                    <img src={this.props.experience.icon}/>
-                </div>
-                <div className="title">
-                    <a href={this.props.experience.title_link}>{this.props.experience.title}</a>
+                <div className="item">
+                    <div className="icon fl">
+                        <img src={this.props.experience.icon}/>
+                    </div>
+                    <div className="fl name-title">
+                        <div className="name">
+                            <a href={this.props.experience.name_link}>{this.props.experience.name}</a>
+                        </div>
+                        <div className="title">
+                            {this.props.experience.title}
+                        </div>
+                    </div>
+                    <div className="fr time-location">
+                        <div className="time">
+                            {this.props.experience.time}
+                        </div>
+                        <div className="location">
+                            <i className="fa fa-map-marker"></i>
+                            {this.props.experience.location}
+                        </div>
+                    </div>
                 </div>
                 <div className="description">
                     {this.props.experience.description}
                 </div>
-                <div className="time">
-                    {this.props.experience.time}
-                </div>
-                <div className="location">
-                    {this.props.experience.location}
-                </div>
+
             </section>
         )
     }

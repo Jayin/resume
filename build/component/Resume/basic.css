@@ -1,3 +1,16 @@
+a {
+  color: #333;
+  text-decoration: none;
+}
+a:hover {
+  color: blue;
+}
 .inline-block {
   display: inline-block;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
 }

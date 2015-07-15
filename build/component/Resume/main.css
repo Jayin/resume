@@ -1,8 +1,22 @@
+a {
+  color: #333;
+  text-decoration: none;
+}
+a:hover {
+  color: blue;
+}
 .inline-block {
   display: inline-block;
 }
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
 .resume-container {
   background-color: #fafafa;
+  padding-bottom: 30px;
 }
 .resume-container .text-info {
   color: #666;
@@ -22,7 +36,7 @@
   width: 98px;
   position: absolute;
   bottom: -27%;
-  left: 41%;
+  left: 42%;
 }
 .resume-container .basicinfo {
   background-color: #fafafa;
@@ -36,4 +50,49 @@
 .resume-container .basicinfo .description {
   font-size: 1.4rem;
   color: #333;
+}
+.resume-container .experiencelist {
+  color: #333;
+  margin: 35px 10%;
+}
+.resume-container .experiencelist .experience-type {
+  text-align: center;
+  background-color: #eee;
+  border-radius: 26px;
+  width: 110px;
+  margin: 0 auto;
+  font-size: 1.3rem;
+  height: 28px;
+  padding-top: 3px;
+}
+.resume-container .experiencelist .experience .item {
+  height: 46px;
+  color: #999;
+  margin-top: 35px;
+}
+.resume-container .experiencelist .experience .item .name {
+  text-decoration: none;
+  color: #333;
+}
+.resume-container .experiencelist .experience .item .name-title {
+  margin: 4px;
+}
+.resume-container .experiencelist .experience .item .name-title .title {
+  margin-top: 4px;
+}
+.resume-container .experiencelist .experience .item .time-location {
+  text-align: right;
+}
+.resume-container .experiencelist .experience .icon,
+.resume-container .experiencelist .experience .icon img {
+  width: 46px;
+  height: 46px;
+  margin-right: 10px;
+}
+.resume-container .experiencelist .experience .icon img {
+  border: 2px solid #eee;
+}
+.resume-container .experiencelist .experience .description {
+  color: #555;
+  margin-top: 12px;
 }

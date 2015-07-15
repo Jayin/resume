@@ -3,7 +3,7 @@
 @headerHeight: 170px;
 .resume-container {
     background-color: #fafafa;
-
+    padding-bottom: 30px;
     .text-info{
         color: #666;
         margin: 8px;
@@ -23,7 +23,7 @@
             width: 98px;
             position: absolute;
             bottom: -27%;
-            left: 41%;
+            left: 42%;
         }
     }
     .basicinfo {
@@ -37,6 +37,53 @@
         .description{
             font-size: 1.4rem;
             color: #333;
+        }
+    }
+    .experiencelist{
+        color: #333;
+        margin: 35px 10%;
+        .experience-type{
+            text-align: center;
+            background-color: #eee;
+            border-radius: 26px;
+            width: 110px;
+            margin: 0 auto;
+            font-size: 1.3rem;
+            height: 28px;
+            padding-top: 3px;
+        }
+        .experience{
+            .item{
+                height: 46px;
+                color: #999;
+                 margin-top: 35px;
+                .name{
+                    text-decoration: none;
+                    color: #333;
+                }
+                .name-title{
+                    margin: 4px;
+                    .title{
+                        margin-top: 4px;
+                    }
+                }
+                .time-location{
+                    text-align: right;
+                }
+            }
+            .icon,
+            .icon img{
+                width: 46px;
+                height: 46px;
+                margin-right: 10px;
+            }
+            .icon img{
+                border: 2px solid #eee;
+            }
+            .description{
+                color: #555;
+                margin-top: 12px;
+            }
         }
     }
 }
