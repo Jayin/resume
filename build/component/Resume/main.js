@@ -20,31 +20,26 @@ var BasicInfo = React.createClass({displayName: "BasicInfo",
 
         return (
             React.createElement("section", {className: "basicinfo"}, 
-                React.createElement("div", {className: "name"}, 
+                React.createElement("div", {className: "text-info name"}, 
                     this.props.basicinfo.name
                 ), 
-                React.createElement("div", {className: "description"}, 
+                React.createElement("div", {className: "text-info description"}, 
                     this.props.basicinfo.description
                 ), 
-                React.createElement("div", {className: "school"}, 
-                    this.props.basicinfo.school
+                React.createElement("div", {className: "text-info"}, 
+                    React.createElement("i", {className: "fa fa-university"}), 
+                    this.props.basicinfo.school, "·", this.props.basicinfo.profession
                 ), 
-                React.createElement("div", {className: "profession"}, 
-                    this.props.basicinfo.profession
+                React.createElement("div", {className: "text-info"}, 
+                    React.createElement("i", {className: "fa fa-user"}), 
+                    this.props.basicinfo.sex, "·", this.props.basicinfo.education, "·", this.props.basicinfo.workage
                 ), 
-                React.createElement("div", {className: "sex"}, 
-                    this.props.basicinfo.sex
-                ), 
-                React.createElement("div", {className: "education"}, 
-                    this.props.basicinfo.education
-                ), 
-                React.createElement("div", {className: "workage"}, 
-                    this.props.basicinfo.workage
-                ), 
-                React.createElement("div", {className: "phone"}, 
+                React.createElement("div", {className: "phone text-info inline-block"}, 
+                    React.createElement("i", {className: "fa fa-phone"}), 
                     this.props.basicinfo.phone
                 ), 
-                React.createElement("div", {className: "email"}, 
+                React.createElement("div", {className: "email text-info inline-block"}, 
+                    React.createElement("i", {className: "fa fa-envelope-o"}), 
                     this.props.basicinfo.email
                 )
             )

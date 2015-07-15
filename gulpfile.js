@@ -28,11 +28,15 @@ gulp.task('copy', function(){
     gulp.src(['./src/style/**/*.+(css|scss|less)',
             './node_modules/normalize.css/normalize.css'])
             .pipe(gulp.dest(DEST + '/style/'))
+
+    gulp.src(['./src/**/*.+(ttf|woff|woff2)'])
+            .pipe(gulp.dest(DEST))
     // js
     gulp.src(['./src/script/**/*.js',
                 './node_modules/react/dist/react.js',
                 './node_modules/whatwg-fetch/fetch.js'])
         .pipe(gulp.dest(DEST + '/script/'))
+
 })
 
 gulp.task('build', ['jsxtranform', 'less', 'copy'])

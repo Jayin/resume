@@ -20,31 +20,26 @@ var BasicInfo = React.createClass({
 
         return (
             <section className="basicinfo" >
-                <div className="name">
+                <div className="text-info name">
                     {this.props.basicinfo.name}
                 </div>
-                <div className="description">
+                <div className="text-info description">
                     {this.props.basicinfo.description}
                 </div>
-                <div className="school">
-                    {this.props.basicinfo.school}
+                <div className="text-info">
+                    <i className="fa fa-university"></i>
+                    {this.props.basicinfo.school}·{this.props.basicinfo.profession}
                 </div>
-                <div className="profession">
-                    {this.props.basicinfo.profession}
+                <div className="text-info">
+                    <i className="fa fa-user"></i>
+                    {this.props.basicinfo.sex}·{this.props.basicinfo.education}·{this.props.basicinfo.workage}
                 </div>
-                <div className="sex">
-                    {this.props.basicinfo.sex}
-                </div>
-                <div className="education">
-                    {this.props.basicinfo.education}
-                </div>
-                <div className="workage">
-                    {this.props.basicinfo.workage}
-                </div>
-                <div className="phone">
+                <div className="phone text-info inline-block">
+                    <i className="fa fa-phone"></i>
                     {this.props.basicinfo.phone}
                 </div>
-                <div className="email">
+                <div className="email text-info inline-block">
+                    <i className="fa fa-envelope-o"></i>
                     {this.props.basicinfo.email}
                 </div>
             </section>

@@ -1,6 +1,18 @@
+@import "basic";
+
 @headerHeight: 170px;
 .resume-container {
     background-color: #fafafa;
+
+    .text-info{
+        color: #666;
+        margin: 8px;
+        i{
+            margin: 3px;
+        }
+    }
+
+
     header {
         background-color: black;
         height: @headerHeight;
@@ -15,7 +27,16 @@
         }
     }
     .basicinfo {
+        background-color: #fafafa;
         text-align: center;
         padding-top: 60px;
+        .name{
+            font-size: 2rem;
+            color: #333;
+        }
+        .description{
+            font-size: 1.4rem;
+            color: #333;
+        }
     }
 }

@@ -1,5 +1,15 @@
+.inline-block {
+  display: inline-block;
+}
 .resume-container {
   background-color: #fafafa;
+}
+.resume-container .text-info {
+  color: #666;
+  margin: 8px;
+}
+.resume-container .text-info i {
+  margin: 3px;
 }
 .resume-container header {
   background-color: black;
@@ -15,6 +25,15 @@
   left: 41%;
 }
 .resume-container .basicinfo {
+  background-color: #fafafa;
   text-align: center;
   padding-top: 60px;
+}
+.resume-container .basicinfo .name {
+  font-size: 2rem;
+  color: #333;
+}
+.resume-container .basicinfo .description {
+  font-size: 1.4rem;
+  color: #333;
 }
