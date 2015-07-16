@@ -39,11 +39,11 @@ var BasicInfo = React.createClass({displayName: "BasicInfo",
                 ), 
                 React.createElement("div", {className: "phone text-info inline-block"}, 
                     React.createElement("i", {className: "fa fa-phone"}), 
-                    this.props.basicinfo.phone
+                    React.createElement("a", {href: "tel:" + this.props.basicinfo.phone}, this.props.basicinfo.phone)
                 ), 
                 React.createElement("div", {className: "email text-info inline-block"}, 
                     React.createElement("i", {className: "fa fa-envelope-o"}), 
-                    this.props.basicinfo.email
+                    React.createElement("a", {href: "mailto:" + this.props.basicinfo.email}, this.props.basicinfo.email)
                 )
             )
         )
