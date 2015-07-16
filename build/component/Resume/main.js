@@ -9,7 +9,8 @@ var Resume = React.createClass({displayName: "Resume",
                 ), 
                 React.createElement(BasicInfo, {basicinfo: this.props.resume.basicinfo}), 
                 React.createElement(ExperienceList, {type: "学习经历", experiences: this.props.resume.Educations}), 
-                React.createElement(ExperienceList, {type: "实习经历", experiences: this.props.resume.InternExperiences})
+                React.createElement(ExperienceList, {type: "实习经历", experiences: this.props.resume.InternExperiences}), 
+                React.createElement(ExperienceList, {type: "项目经验", experiences: this.props.resume.ProjectExperience})
             )
         )
     }
