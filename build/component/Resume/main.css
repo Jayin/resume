@@ -74,6 +74,11 @@ a:hover {
   text-decoration: none;
   color: #333;
 }
+.resume-container .experiencelist .experience .item .name i {
+  margin-left: 4px;
+  color: #999;
+  font-size: 0.9rem;
+}
 .resume-container .experiencelist .experience .item .name-title {
   margin: 4px;
 }

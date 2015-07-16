@@ -92,6 +92,8 @@ var Experience  = React.createClass({
                     <div className="fl name-title">
                         <div className="name">
                             <a href={this.props.experience.name_link}>{this.props.experience.name}</a>
+                            {this.props.experience.name_link && this.props.experience.name_link != "" ?
+                                <i className="fa fa-link"></i> : ""}
                         </div>
                         <div className="title">
                             {this.props.experience.title}
