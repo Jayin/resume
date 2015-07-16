@@ -1,10 +1,12 @@
 var Resume = React.createClass({
     render: function() {
-
+        var header_style = {
+            backgroundImage: this.props.resume.background_image ? "url(link)".replace('link', this.props.resume.background_image) : ""
+        }
 
         return (
             <div className="resume-container">
-                <header >
+                <header style={header_style}>
                     <img className="avatar" src={this.props.resume.avatar} />
                 </header>
                 <BasicInfo basicinfo={this.props.resume.basicinfo}/>

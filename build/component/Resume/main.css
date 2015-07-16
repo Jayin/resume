@@ -28,6 +28,7 @@ a:hover {
 .resume-container header {
   background-color: black;
   height: 170px;
+  background-position: center;
   position: relative;
 }
 .resume-container header img.avatar {
