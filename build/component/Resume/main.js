@@ -10,6 +10,7 @@ var Resume = React.createClass({displayName: "Resume",
                     React.createElement("img", {className: "avatar", src: this.props.resume.avatar})
                 ), 
                 React.createElement(BasicInfo, {basicinfo: this.props.resume.basicinfo}), 
+                React.createElement(Social, {social: this.props.resume.social}), 
                 React.createElement(ExperienceList, {type: "学习经历", experiences: this.props.resume.Educations}), 
                 React.createElement(ExperienceList, {type: "实习经历", experiences: this.props.resume.InternExperiences}), 
                 React.createElement(ExperienceList, {type: "项目经验", experiences: this.props.resume.ProjectExperience})
@@ -55,6 +56,30 @@ var BasicInfo = React.createClass({displayName: "BasicInfo",
                 )
             )
         )
+    }
+})
+
+var Social = React.createClass({displayName: "Social",
+    render: function(){
+        return (
+            React.createElement("section", {className: "social"}, 
+                this.props.social.map(function(item){
+                    //如果有icon 优先使用icon
+                    if(!item.icon){
+                        return (
+                            React.createElement("a", {className: 'fa fa-' + item.type})
+                        )
+                    }else{
+                        return (
+                            React.createElement("a", {href: item.link}, 
+                                React.createElement("img", {src: item.icon})
+                            )
+                        )
+                    }
+                })
+            )
+
+        );
     }
 })
 

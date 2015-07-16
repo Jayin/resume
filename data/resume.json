@@ -23,6 +23,28 @@
             "location": "广东江门"
         }
     ],
+    "social":[
+        {
+            "type": "github",
+            "link": "https://github.com/Jayin",
+            "icon": ""
+        },
+        {
+            "type": "weibo",
+            "link": "http://weibo.com/tjy273942569",
+            "icon": ""
+        },
+        {
+            "type": "linkedin",
+            "link": "https://www.linkedin.com/pub/jayin-ton/100/85a/161",
+            "icon": ""
+        },
+        {
+            "type": "twitter",
+            "link": "https://twitter.com/Jayin_Ton",
+            "icon": "https://cdn1.iconfinder.com/data/icons/new_twitter_icon/491/bird_twitter_new_single.png"
+        }
+    ],
     "InternExperiences": [
         {
             "name": "深圳三分线网络科技有限公司",

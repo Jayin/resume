@@ -52,6 +52,18 @@ a:hover {
   font-size: 1.4rem;
   color: #333;
 }
+.resume-container .social {
+  text-align: center;
+  font-size: 2rem;
+  margin: 8px;
+}
+.resume-container .social a.fa {
+  margin: 3px;
+}
+.resume-container .social img {
+  width: 28px;
+  background-color: white;
+}
 .resume-container .experiencelist {
   color: #333;
   margin: 35px 10%;

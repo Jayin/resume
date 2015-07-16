@@ -10,6 +10,7 @@ var Resume = React.createClass({
                     <img className="avatar" src={this.props.resume.avatar} />
                 </header>
                 <BasicInfo basicinfo={this.props.resume.basicinfo}/>
+                <Social social={this.props.resume.social}/>
                 <ExperienceList type="学习经历" experiences={this.props.resume.Educations}/>
                 <ExperienceList type="实习经历" experiences={this.props.resume.InternExperiences}/>
                 <ExperienceList type="项目经验" experiences={this.props.resume.ProjectExperience}/>
@@ -55,6 +56,30 @@ var BasicInfo = React.createClass({
                 </div>
             </section>
         )
+    }
+})
+
+var Social = React.createClass({
+    render: function(){
+        return (
+            <section className="social">
+                {this.props.social.map(function(item){
+                    //如果有icon 优先使用icon
+                    if(!item.icon){
+                        return (
+                            <a className={'fa fa-' + item.type} ></a>
+                        )
+                    }else{
+                        return (
+                            <a href={item.link}>
+                                <img src={item.icon}/>
+                            </a>
+                        )
+                    }
+                })}
+            </section>
+
+        );
     }
 })
 
