@@ -16,6 +16,7 @@ a:hover {
 }
 .resume-container {
   background-color: #fafafa;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.4);
   padding-bottom: 30px;
 }
 .resume-container .text-info {
