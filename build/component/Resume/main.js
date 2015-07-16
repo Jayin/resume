@@ -93,8 +93,9 @@ var Experience  = React.createClass({displayName: "Experience",
                     React.createElement("div", {className: "fl name-title"}, 
                         React.createElement("div", {className: "name"}, 
                             React.createElement("a", {href: this.props.experience.name_link}, this.props.experience.name), 
-                            this.props.experience.name_link && this.props.experience.name_link != "" ?
-                                React.createElement("i", {className: "fa fa-link"}) : ""
+                            !this.props.experience.name_link ? "" :
+                                React.createElement("i", {className: "fa fa-link"})
+                            
                         ), 
                         React.createElement("div", {className: "title"}, 
                             this.props.experience.title
@@ -105,16 +106,12 @@ var Experience  = React.createClass({displayName: "Experience",
                             this.props.experience.time
                         ), 
                         React.createElement("div", {className: "location"}, 
-                            (function renderLocation(location){
-                                if(location && location != ''){
-                                        return (
-                                            React.createElement("div", null, 
-                                                React.createElement("i", {className: "fa fa-map-marker"}), 
-                                                location
-                                            )
-                                        )
-                                    }
-                            })(this.props.experience.location)
+                            !this.props.experience.location ? "" :
+                                React.createElement("div", null, 
+                                    React.createElement("i", {className: "fa fa-map-marker"}), 
+                                    this.props.experience.location
+                                )
+                            
                         )
                     )
                 ), 
