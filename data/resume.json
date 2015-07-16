@@ -1,5 +1,5 @@
 {
-    "avatar": "/resume/mock/1.jpg",
+    "avatar": "/resume/data/1.jpg",
     "background-img": "",
     "basicinfo": {
         "name": "唐杰英",
@@ -17,7 +17,7 @@
             "name": "五邑大学",
             "name_link": "http://www.wyu.edu.cn/",
             "title": "本科 · 计算机科学与技术",
-            "icon": "/resume/mock/1.jpg",
+            "icon": "/resume/data/1.jpg",
             "description": "",
             "time": "2012-2016",
             "location": "广东江门"
@@ -28,7 +28,7 @@
             "name": "深圳三分线网络科技有限公司",
             "name_link": "",
             "title": "前端开发工程师",
-            "icon": "/resume/mock/1.jpg",
+            "icon": "/resume/data/1.jpg",
             "description": "负责微信html5创意广告微信网页开发，参与报喜鸟，淘宝，亚洲环保创新论坛等案例的开发",
             "time": "2015.04 - 至今",
             "location": "广东深圳"
@@ -37,7 +37,7 @@
             "name": "深圳百贝斯网络科技有限公司",
             "name_link": "",
             "title": "PHP Developer",
-            "icon": "/resume/mock/1.jpg",
+            "icon": "/resume/data/1.jpg",
             "description": "基于OpenCart开源商城系统开发外贸商城",
             "time": "2014.07 - 2016.08",
             "location": "广东深圳"
