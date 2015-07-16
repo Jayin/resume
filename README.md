@@ -1,6 +1,8 @@
 <img src="data/icon-resume.png" height="200"/>
 > 1分钟构建个人的在线简历
 
+[DEMO](http://www.jayinton.com/resume/build/)
+
 ### 使用
 
 1. Fork 这个仓库
