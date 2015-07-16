@@ -94,8 +94,16 @@ var Experience  = React.createClass({
                             {this.props.experience.time}
                         </div>
                         <div className="location">
-                            <i className="fa fa-map-marker"></i>
-                            {this.props.experience.location}
+                            {(function renderLocation(location){
+                                if(location && location != ''){
+                                        return (
+                                            <div>
+                                                <i className="fa fa-map-marker"></i>
+                                                {location}
+                                            </div>
+                                        )
+                                    }
+                            })(this.props.experience.location)}
                         </div>
                     </div>
                 </div>

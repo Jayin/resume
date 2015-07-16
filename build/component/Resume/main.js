@@ -94,8 +94,16 @@ var Experience  = React.createClass({displayName: "Experience",
                             this.props.experience.time
                         ), 
                         React.createElement("div", {className: "location"}, 
-                            React.createElement("i", {className: "fa fa-map-marker"}), 
-                            this.props.experience.location
+                            (function renderLocation(location){
+                                if(location && location != ''){
+                                        return (
+                                            React.createElement("div", null, 
+                                                React.createElement("i", {className: "fa fa-map-marker"}), 
+                                                location
+                                            )
+                                        )
+                                    }
+                            })(this.props.experience.location)
                         )
                     )
                 ), 
