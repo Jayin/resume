@@ -78,9 +78,16 @@ var Experience  = React.createClass({
         return (
             <section className="experience">
                 <div className="item">
-                    <div className="icon fl">
-                        <img src={this.props.experience.icon}/>
-                    </div>
+                    {(function(icon){
+                        if(icon && icon != ''){
+                            return (
+                                <div className="icon fl">
+                                    <img src={icon}/>
+                                </div>
+                            )
+                        }
+                    })(this.props.experience.icon)}
+
                     <div className="fl name-title">
                         <div className="name">
                             <a href={this.props.experience.name_link}>{this.props.experience.name}</a>

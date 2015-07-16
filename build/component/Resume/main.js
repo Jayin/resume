@@ -78,9 +78,16 @@ var Experience  = React.createClass({displayName: "Experience",
         return (
             React.createElement("section", {className: "experience"}, 
                 React.createElement("div", {className: "item"}, 
-                    React.createElement("div", {className: "icon fl"}, 
-                        React.createElement("img", {src: this.props.experience.icon})
-                    ), 
+                    (function(icon){
+                        if(icon && icon != ''){
+                            return (
+                                React.createElement("div", {className: "icon fl"}, 
+                                    React.createElement("img", {src: icon})
+                                )
+                            )
+                        }
+                    })(this.props.experience.icon), 
+
                     React.createElement("div", {className: "fl name-title"}, 
                         React.createElement("div", {className: "name"}, 
                             React.createElement("a", {href: this.props.experience.name_link}, this.props.experience.name)
