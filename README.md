@@ -1,4 +1,4 @@
-# resume
+<img src="data/icon-resume.png" height="200"/>
 > 1分钟构建个人的在线简历
 
 ### 使用
