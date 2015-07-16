@@ -38,12 +38,20 @@ var BasicInfo = React.createClass({
                     {this.props.basicinfo.sex}·{this.props.basicinfo.education}·{this.props.basicinfo.workage}
                 </div>
                 <div className="phone text-info inline-block">
-                    <i className="fa fa-phone"></i>
-                    <a href={"tel:" + this.props.basicinfo.phone}>{this.props.basicinfo.phone}</a>
+                    {!this.props.basicinfo.phone ? "" :
+                        <div>
+                            <i className="fa fa-phone"></i>
+                            <a href={"tel:" + this.props.basicinfo.phone}>{this.props.basicinfo.phone}</a>
+                        </div>
+                    }
                 </div>
                 <div className="email text-info inline-block">
-                    <i className="fa fa-envelope-o"></i>
-                    <a href={"mailto:" + this.props.basicinfo.email}>{this.props.basicinfo.email}</a>  
+                    {!this.props.basicinfo.email ? "" :
+                        <div>
+                            <i className="fa fa-envelope-o"></i>
+                            <a href={"mailto:" + this.props.basicinfo.email}>{this.props.basicinfo.email}</a>
+                        </div>
+                    }
                 </div>
             </section>
         )
