@@ -60,19 +60,12 @@ var BasicInfo = React.createClass({
 
 var ExperienceList = React.createClass({
     render: function(){
-        console.log('ExperienceList-->')
-        console.log(this.props.experiences)
-        // this.props.experiences.forEach(function(experience){
-        //     console.log (experience)
-        // })
         return (
             <section className="experiencelist">
                 <div className="experience-type">
                     {this.props.type}
                 </div>
                 {this.props.experiences.map(function(experience){
-                    console.log('map')
-                    console.log (experience)
                     return (
                         <Experience experience={experience}/>
                     )
@@ -84,8 +77,6 @@ var ExperienceList = React.createClass({
 
 var Experience  = React.createClass({
     render: function(){
-        console.log ('Experience')
-        console.log(this.props.experience)
         return (
             <section className="experience">
                 <div className="item">
@@ -140,7 +131,6 @@ fetch('/resume/data/resume.json')
   .then(function(response) {
     return response.json()
   }).then(function(json) {
-    console.log('parsed json', json)
     React.render( <Resume resume={json} /> , document.getElementById('container'));
   }).catch(function(ex) {
     console.log('parsing failed', ex)

@@ -60,19 +60,12 @@ var BasicInfo = React.createClass({displayName: "BasicInfo",
 
 var ExperienceList = React.createClass({displayName: "ExperienceList",
     render: function(){
-        console.log('ExperienceList-->')
-        console.log(this.props.experiences)
-        // this.props.experiences.forEach(function(experience){
-        //     console.log (experience)
-        // })
         return (
             React.createElement("section", {className: "experiencelist"}, 
                 React.createElement("div", {className: "experience-type"}, 
                     this.props.type
                 ), 
                 this.props.experiences.map(function(experience){
-                    console.log('map')
-                    console.log (experience)
                     return (
                         React.createElement(Experience, {experience: experience})
                     )
@@ -84,8 +77,6 @@ var ExperienceList = React.createClass({displayName: "ExperienceList",
 
 var Experience  = React.createClass({displayName: "Experience",
     render: function(){
-        console.log ('Experience')
-        console.log(this.props.experience)
         return (
             React.createElement("section", {className: "experience"}, 
                 React.createElement("div", {className: "item"}, 
@@ -140,7 +131,6 @@ fetch('/resume/data/resume.json')
   .then(function(response) {
     return response.json()
   }).then(function(json) {
-    console.log('parsed json', json)
     React.render( React.createElement(Resume, {resume: json}) , document.getElementById('container'));
   }).catch(function(ex) {
     console.log('parsing failed', ex)
