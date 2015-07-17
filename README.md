@@ -1,20 +1,30 @@
 <img src="data/icon-resume.png" height="200"/>
 > 1分钟构建个人的在线简历
 
-[DEMO](http://www.jayinton.com/resume/build/)
+#### react + json 构建一份个人简历
+#### => [DEMO](http://www.jayinton.com/resume/build/) <=
 
 ### 使用
 
-1. Fork 这个仓库
-2. clone 你自己的仓库到本地
-3. 修改[resume.json](data/resume.json) 文件，填入你的信息
-4. 提交修改并push 到你的GitHub
-5. 访问[http://you_username.github.io/resume/build/index.html](http://you_username.github.io/resume/build/index.html)
+##### 1. Fork 这个仓库
+![](screenshot/step_0.png)
 
-### 设计目标
+##### 2. 修改[resume.json](data/resume.json)(简历信息都写在里面)，填入你的信息
+![](screenshot/step_1.png)
 
-![design target](./screenshot/lagou-demo.png)
+##### 3. 提交修改并push到你的GitHub
+![](screenshot/step_2.png)
 
-### license
+##### 4. 访问[http://you_username.github.io/resume/build/index.html](http://{you_username}.github.io/resume/build/index.html)
+
+### Development
+
+```shell
+npm install
+gulp serve # 访问http://localhost:3000/resume/build/
+gulp watch # build & watch
+```
+
+### License
 
 MIT
