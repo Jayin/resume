@@ -2,19 +2,19 @@
     "avatar": "/resume/data/1.jpg",
     "background_image": "https://9to5mac.files.wordpress.com/2014/08/yosemite-3.jpg?w=1200&h=&crop=1",
     "basicinfo": {
-        "name": "唐杰英",
-        "description": "人生苦短，我用JavaScript",
-        "school": "五邑大学",
+        "name": "Kallen Ding",
+        "description": "人生苦短，我用Python",
+        "school": "GSAU",
         "profession": "计算机科学与技术",
         "sex": "男",
         "education" : "本科",
         "workage": "应届毕业",
         "phone": "15088132354",
-        "email": "tonjayin@gmail.com"
+        "email": "keleix@gmail.com"
     },
     "Educations": [
         {
-            "name": "五邑大学",
+            "name": "GSAU",
             "name_link": "http://www.wyu.edu.cn/",
             "title": "本科 · 计算机科学与技术",
             "icon": "https://avatars0.githubusercontent.com/u/6442809?v=3&s=200",
