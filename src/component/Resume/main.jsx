@@ -67,7 +67,7 @@ var Social = React.createClass({
                     //如果有icon 优先使用icon
                     if(!item.icon){
                         return (
-                            <a className={'fa fa-' + item.type} ></a>
+                            <a className={'fa fa-' + item.type} href={item.link}></a>
                         )
                     }else{
                         return (
