@@ -21,7 +21,7 @@
 
 ```shell
 npm install
-gulp serve # 访问http://localhost:3000/resume/build/
+npm run serve # 访问http://localhost:3000/resume/build/
 gulp watch # build & watch
 ```
 
