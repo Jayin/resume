@@ -117,7 +117,10 @@ var Experience  = React.createClass({displayName: "Experience",
 
                     React.createElement("div", {className: "fl name-title"}, 
                         React.createElement("div", {className: "name"}, 
-                            React.createElement("a", {href: this.props.experience.name_link}, this.props.experience.name), 
+                            !this.props.experience.name_link ?
+                                React.createElement("a", null, this.props.experience.name) :
+                                React.createElement("a", {href: this.props.experience.name_link}, this.props.experience.name), 
+                            
                             !this.props.experience.name_link ? "" :
                                 React.createElement("i", {className: "fa fa-link"})
                             
