@@ -78,32 +78,35 @@ body {
   border-radius: 26px;
   width: 110px;
   margin: 0 auto;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   height: 28px;
-  padding-top: 3px;
 }
 .resume-container .experiencelist .experience .item {
   height: 46px;
   color: #999;
   margin-top: 35px;
 }
-.resume-container .experiencelist .experience .item .name {
+.resume-container .experiencelist .experience .item .name-title {
+  margin: 4px;
+}
+.resume-container .experiencelist .experience .item .name-title .name {
   text-decoration: none;
   color: #333;
+  font-size: 1rem;
 }
-.resume-container .experiencelist .experience .item .name i {
+.resume-container .experiencelist .experience .item .name-title .name i {
   margin-left: 4px;
   color: #999;
   font-size: 0.9rem;
 }
-.resume-container .experiencelist .experience .item .name-title {
-  margin: 4px;
-}
 .resume-container .experiencelist .experience .item .name-title .title {
+  font-size: 0.9rem;
   margin-top: 4px;
 }
 .resume-container .experiencelist .experience .item .time-location {
   text-align: right;
+  font-size: 0.9rem;
+  margin: 4px;
 }
 .resume-container .experiencelist .experience .icon,
 .resume-container .experiencelist .experience .icon img {
@@ -117,4 +120,5 @@ body {
 .resume-container .experiencelist .experience .description {
   color: #555;
   margin-top: 20px;
+  margin-left: 4px;
 }
