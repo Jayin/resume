@@ -14,6 +14,9 @@ a:hover {
 .fr {
   float: right;
 }
+body {
+  font-family: "Hiragino Sans GB", "微软雅黑", "宋体";
+}
 .resume-container {
   background-color: #fafafa;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.4);
@@ -113,5 +116,5 @@ a:hover {
 }
 .resume-container .experiencelist .experience .description {
   color: #555;
-  margin-top: 12px;
+  margin-top: 20px;
 }
