@@ -5,7 +5,7 @@ var Resume = React.createClass({
         }
 
         return (
-            <div className="resume-container">
+            <div className="resume-container animated fadeInUp">
                 <header style={header_style}>
                     <img className="avatar" src={this.props.resume.avatar} />
                 </header>

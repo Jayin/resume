@@ -5,7 +5,7 @@ var Resume = React.createClass({displayName: "Resume",
         }
 
         return (
-            React.createElement("div", {className: "resume-container"}, 
+            React.createElement("div", {className: "resume-container animated fadeInUp"}, 
                 React.createElement("header", {style: header_style}, 
                     React.createElement("img", {className: "avatar", src: this.props.resume.avatar})
                 ), 
