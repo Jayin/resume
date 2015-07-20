@@ -15,7 +15,7 @@ a:hover {
   float: right;
 }
 body {
-  font-family: "Hiragino Sans GB", "微软雅黑", "宋体";
+  font-family: "lucida grande", "lucida sans unicode", lucida, helvetica, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
 }
 .resume-container {
   background-color: #fafafa;
