@@ -77,7 +77,7 @@
         },
         {
             "name": "resume",
-            "name_link": "https://github.com/Jayin/silentor",
+            "name_link": "https://github.com/Jayin/resume",
             "title": "Developer",
             "icon": "/resume/data/icon.png",
             "description": "1分钟构建个人的在线简历 build on React",
