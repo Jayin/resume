@@ -43,6 +43,11 @@
             "type": "twitter",
             "link": "https://twitter.com/Jayin_Ton",
             "icon": "https://cdn1.iconfinder.com/data/icons/new_twitter_icon/491/bird_twitter_new_single.png"
+        },
+        {
+            "type": "home",
+            "link": "http://jayinton.com",
+            "icon": ""
         }
     ],
     "InternExperiences": [
