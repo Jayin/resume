@@ -67,15 +67,15 @@ var Social = React.createClass({
                     //如果有icon 优先使用icon
                     if(!item.icon){
                         return (
-                            <a className={'fa fa-' + item.type} href={item.link}></a>
-                        )
-                    }else{
-                        return (
-                            <a href={item.link}>
-                                <img src={item.icon}/>
-                            </a>
+                            <a className={'fa fa-' + item.type} href={item.link} key={item.type + item.link}></a>
                         )
                     }
+                    return (
+                        <a href={item.link} key={item.type + item.link}>
+                            <img src={item.icon}/>
+                        </a>
+                    )
+
                 })}
             </section>
 
@@ -92,7 +92,7 @@ var ExperienceList = React.createClass({
                 </div>
                 {this.props.experiences.map(function(experience){
                     return (
-                        <Experience experience={experience}/>
+                        <Experience experience={experience} key={experience.name}/>
                     )
                 })}
             </section>
