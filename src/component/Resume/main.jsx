@@ -12,6 +12,7 @@ var Resume = React.createClass({
                 <BasicInfo basicinfo={this.props.resume.basicinfo}/>
                 <Social social={this.props.resume.social}/>
                 <ExperienceList type="学习经历" experiences={this.props.resume.Educations}/>
+                <ExperienceList type="获奖经历" experiences={this.props.resume.Awards}/>
                 <ExperienceList type="实习经历" experiences={this.props.resume.InternExperiences}/>
                 <ExperienceList type="项目经验" experiences={this.props.resume.ProjectExperience}/>
             </div>
@@ -143,10 +144,11 @@ var Experience  = React.createClass({
                         </div>
                     </div>
                 </div>
-                <div className="description">
-                    {this.props.experience.description}
-                </div>
-
+                {!this.props.experience.description ? "" :
+                    <div className="description">
+                        {this.props.experience.description}
+                    </div>
+                }
             </section>
         )
     }
