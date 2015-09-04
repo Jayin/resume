@@ -1,1 +1,1 @@
-a{color:#333;text-decoration:none}a:hover{color:#4078c0}.inline-block{display:inline-block}.fl{float:left}.fr{float:right}
+a{color:#333;text-decoration:none}a:hover{color:#4078c0}.inline-block{display:inline-block}.fl{float:left}.fr{float:right}.clearfix:after{content:" ";visibility:hidden;display:block;height:0;clear:both}
