@@ -3,7 +3,7 @@
     "background_image": "https://9to5mac.files.wordpress.com/2014/08/yosemite-3.jpg?w=1200&h=&crop=1",
     "basicinfo": {
         "name": "唐杰英",
-        "description": "人生苦短，我用JavaScript",
+        "description": "岂能尽如人意，但求无愧我心",
         "school": "五邑大学",
         "profession": "计算机科学与技术",
         "sex": "男",
@@ -31,7 +31,7 @@
         {
             "type": "twitter",
             "link": "https://twitter.com/Jayin_Ton",
-            "icon": "https://cdn1.iconfinder.com/data/icons/new_twitter_icon/491/bird_twitter_new_single.png"
+            "icon": ""
         },
         {
             "type": "home",
@@ -74,37 +74,55 @@
             "name_link": "",
             "title": "前端开发工程师",
             "icon": "",
-            "description": "负责微信html5创意广告微信网页开发，参与报喜鸟，淘宝，亚洲环保创新论坛等案例的开发",
-            "time": "2015.04 - 至今",
+            "description": "负责微信html5创意广告微信网页开发，参与报喜鸟，淘宝，亚洲环保创新论坛等案例的开发。 使用团队自行开发的前端框架html5slide。",
+            "time": "2015.04 - 2015.09",
             "location": "广东 深圳"
         },
         {
             "name": "深圳百贝斯网络科技有限公司",
             "name_link": "",
-            "title": "PHP Developer",
+            "title": "PHP开发工程师",
             "icon": "",
-            "description": "基于OpenCart开源商城系统开发外贸商城",
+            "description": "基于开源商城系统OpenCart二次开发一外贸商城",
             "time": "2014.07 - 2014.08",
             "location": "广东 江门"
         }
     ],
     "ProjectExperience": [
         {
+            "name": "ETips",
+            "name_link": "http://etips.github.io/",
+            "title": "Android App, 作者",
+            "icon": "",
+            "description": "五邑大学校园助手，2一键导入课程表/图书检索、收藏/及时获取校园资讯/查空课室/电费, 已为7+K同学服务",
+            "time": "2013.07 - 至今",
+            "location": ""
+        },
+        {
+            "name": "东莞技能培训中心",
+            "name_link": "",
+            "title": "Android App/PHP后端, 项目负责人",
+            "icon": "",
+            "description": "主要负责PHP后端，采用ThinkPHP框架实现一个CMS、已经App广告管理后台；同时也负责Android端基础搭建",
+            "time": "2014.08 - 2014.12",
+            "location": ""
+        },
+        {
             "name": "silentor",
             "name_link": "https://github.com/Jayin/silentor",
-            "title": "Developer",
-            "icon": "https://github.com/Jayin/silentor/raw/gh-pages/img/favicon.ico",
+            "title": "JavaScript, forker",
+            "icon": "",
             "description": "纯前端，基于markdown的博客",
             "time": "2014.10 - 至今",
             "location": ""
         },
         {
-            "name": "resume",
-            "name_link": "https://github.com/Jayin/resume",
-            "title": "Developer",
-            "icon": "/resume/data/icon.png",
-            "description": "1分钟构建个人的在线简历 build on React",
-            "time": "2015.07 - 至今",
+            "name": "更多",
+            "name_link": "https://github.com/Jayin/jayin.github.io/blob/master/blog/p/projects/index.md",
+            "title": "",
+            "icon": "",
+            "description": "",
+            "time": "",
             "location": ""
         }
     ]
