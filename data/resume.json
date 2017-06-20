@@ -1,9 +1,9 @@
 {
-    "avatar": "/resume/data/1.jpg",
+    "avatar": "/resume/data/1c.jpg",
     "background_image": "https://9to5mac.files.wordpress.com/2014/08/yosemite-3.jpg?w=1200&h=&crop=1",
     "basicinfo": {
         "name": "王燕华",
-        "description": "岂能尽如人意，但求无愧我心",
+        "description": "路漫漫其修远兮，吾将上下而求索",
         "school": "南阳理工学院",
         "profession": "生物与化学工程学院",
         "sex": "男",
@@ -16,26 +16,6 @@
         {
             "type": "github",
             "link": "https://github.com/githubwyh",
-            "icon": ""
-        },
-        {
-            "type": "weibo",
-            "link": "http://weibo.com/tjy273942569",
-            "icon": ""
-        },
-        {
-            "type": "linkedin",
-            "link": "https://www.linkedin.com/pub/jayin-ton/100/85a/161",
-            "icon": ""
-        },
-        {
-            "type": "twitter",
-            "link": "https://twitter.com/Jayin_Ton",
-            "icon": ""
-        },
-        {
-            "type": "home",
-            "link": "http://jayinton.com",
             "icon": ""
         }
     ],
