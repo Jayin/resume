@@ -1,41 +1,21 @@
 {
-    "avatar": "/resume/data/1.jpg",
+    "avatar": "/resume/data/1c.jpg",
     "background_image": "https://9to5mac.files.wordpress.com/2014/08/yosemite-3.jpg?w=1200&h=&crop=1",
     "basicinfo": {
-        "name": "唐杰英",
-        "description": "岂能尽如人意，但求无愧我心",
-        "school": "五邑大学",
-        "profession": "计算机科学与技术",
+        "name": "王燕华",
+        "description": "路漫漫其修远兮，吾将上下而求索",
+        "school": "南阳理工学院",
+        "profession": "生物与化学工程学院",
         "sex": "男",
         "education" : "本科",
-        "workage": "2016届毕业",
-        "phone": "15088132354",
-        "email": "tonjayin@gmail.com"
+        "workage": "2014届毕业",
+        "phone": "13001085700",
+        "email": "13001085700@163.com"
     },
     "social":[
         {
             "type": "github",
-            "link": "https://github.com/Jayin",
-            "icon": ""
-        },
-        {
-            "type": "weibo",
-            "link": "http://weibo.com/tjy273942569",
-            "icon": ""
-        },
-        {
-            "type": "linkedin",
-            "link": "https://www.linkedin.com/pub/jayin-ton/100/85a/161",
-            "icon": ""
-        },
-        {
-            "type": "twitter",
-            "link": "https://twitter.com/Jayin_Ton",
-            "icon": ""
-        },
-        {
-            "type": "home",
-            "link": "http://jayinton.com",
+            "link": "https://github.com/githubwyh",
             "icon": ""
         }
     ],
