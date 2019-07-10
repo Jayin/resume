@@ -35,7 +35,7 @@
         },
         {
             "type": "home",
-            "link": "http://jayinton.com",
+            "link": "https://github.com/Jayin",
             "icon": ""
         }
     ],
@@ -59,12 +59,12 @@
     "socialExperiences": [
         {
             "name": "加入XX移动开发工作室",
-            "name_link": "meizhuo.org",
+            "name_link": "https://github.com/Jayin",
             "description": "大学唯一加入的组织，期间与团队共同开发了校友录，东莞培训中心App，轻会议等多款产品"
         },
         {
             "name": "组织X次校内开发者交流会",
-            "name_link": "http://github.com",
+            "name_link": "https://github.com/Jayin",
             "description": "受Ruby China Conf启发，也地处三线城市IT氛围不浓厚，所以自行组织了3次交流会"
         }
     ],
@@ -91,7 +91,7 @@
     "ProjectExperience": [
         {
             "name": "XTips",
-            "name_link": "http://github.com",
+            "name_link": "https://github.com/Jayin",
             "title": "Android App, 作者",
             "icon": "",
             "description": "中山大学校园助手，2一键导入课程表/图书检索、收藏/及时获取校园资讯/查空课室/电费, 已为7+K同学服务",
