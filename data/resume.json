@@ -17,26 +17,6 @@
             "type": "github",
             "link": "https://github.com/zozh",
             "icon": ""
-        },
-        {
-            "type": "weibo",
-            "link": "http://weibo.com",
-            "icon": ""
-        },
-        {
-            "type": "linkedin",
-            "link": "https://www.linkedin.com",
-            "icon": ""
-        },
-        {
-            "type": "twitter",
-            "link": "https://twitter.com",
-            "icon": ""
-        },
-        {
-            "type": "home",
-            "link": "https://github.com/Jayin",
-            "icon": ""
         }
     ],
     "Awards": [
@@ -54,26 +34,10 @@
     "InternExperiences": [
 		{
 			"name": "应届实习"
-		},
-       // {
-           // "name": "深圳XX网络科技有限公司",
-           // "name_link": "",
-           // "title": "前端开发工程师",
-           // "icon": "",
-           // "description": "负责微信html5创意广告微信网页开发，参与报喜鸟，淘宝，亚洲环保创新论坛等案例的开发。 使用团队自行开发的前端框架html5slide。",
-            //"time": "2015.04 - 2015.09",
-           // "location": "广东 深圳"
-       // },
+		}
+
     ],
     "ProjectExperience": [
-       // {
-           // "name": "XTips",
-           // "name_link": "https://github.com/Jayin",
-           // "title": "Android App, 作者",
-           // "icon": "",
-           // "description": "中山大学校园助手，2一键导入课程表/图书检索、收藏/及时获取校园资讯/查空课室/电费, 已为7+K同学服务",
-           // "time": "2013.07 - 至今",
-           // "location": ""
-        //},
+
     ]
 }
