@@ -15,7 +15,7 @@
     "social":[
         {
             "type": "github",
-            "link": "https://github.com/Jayin",
+            "link": "https://github.com/zozh",
             "icon": ""
         },
         {
@@ -41,7 +41,7 @@
     ],
     "Awards": [
         {
-            "name": "中山大学第十三/四届学术科技节之软件大赛一等奖(蝉联2年第一)"
+            "name": "优秀学生奖学金"
         },
         {
             "name": "第X届XX杯全国软件专业人才设计与创业大赛C/C++本科B组广东赛区一等奖，全国决赛三等奖"
@@ -58,15 +58,10 @@
     ],
     "socialExperiences": [
         {
-            "name": "加入XX移动开发工作室",
+            "name": "院级学生会",
             "name_link": "https://github.com/Jayin",
-            "description": "大学唯一加入的组织，期间与团队共同开发了校友录，东莞培训中心App，轻会议等多款产品"
+            "description": "大学唯一加入的组织，。期间与团队共同开发了校友录，东莞培训中心App，轻会议等多款产品"
         },
-        {
-            "name": "组织X次校内开发者交流会",
-            "name_link": "https://github.com/Jayin",
-            "description": "受Ruby China Conf启发，也地处三线城市IT氛围不浓厚，所以自行组织了3次交流会"
-        }
     ],
     "InternExperiences": [
         {
@@ -107,7 +102,7 @@
             "time": "2014.08 - 2014.12",
             "location": ""
         },
-        {
+        {.
             "name": "silentor",
             "name_link": "https://github.com/Jayin/silentor",
             "title": "JavaScript, forker",
