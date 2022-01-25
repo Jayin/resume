@@ -19,7 +19,7 @@
 
 ![](screenshot/step_2.png)
 
-##### 4. 访问[http://you_username.github.io/resume/build/index.html](http://{you_username}.github.io/resume/build/index.html)
+##### 4. 访问[https://longertaki.github.io/resume/build/index.html](http://{you_username}.github.io/resume/build/index.html)
 
 ### 对本项目开发
 
