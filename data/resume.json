@@ -2,40 +2,31 @@
     "avatar": "/resume/data/1.jpg",
     "background_image": "https://9to5mac.files.wordpress.com/2014/08/yosemite-3.jpg?w=1200&h=&crop=1",
     "basicinfo": {
-        "name": "周俊",
-        "description": "岂能尽如人意，但求无愧我心",
-        "school": "中山大学",
-        "profession": "计算机科学与技术",
-        "sex": "男",
-        "education" : "本科",
-        "workage": "2012届毕业",
-        "phone": "15088888888",
-        "email": "tonjayin@gmail.com"
+        "name": "Zhilong Song",
+        "description": "A friend in need is a friend indeed.",
+        "school": "University College London",
+        "profession": "BSC Engineering (Mechanical)",
+        "sex": "Male",
+        "education" : "Bachelor degree",
+        "workage": "2021 Undergraduate ",
+        "phone": "+86 15217062992",
+        "email": "alexsong19991201@outlook.com"
     },
     "social":[
         {
             "type": "github",
-            "link": "https://github.com/Jayin",
-            "icon": ""
-        },
-        {
-            "type": "weibo",
-            "link": "http://weibo.com",
+            "link": "https://github.com/Longertaki",
             "icon": ""
         },
         {
             "type": "linkedin",
-            "link": "https://www.linkedin.com",
+            "link": "https://www.linkedin.com/in/zhilong-song-a1744219a/",
             "icon": ""
         },
-        {
-            "type": "twitter",
-            "link": "https://twitter.com",
-            "icon": ""
-        },
+
         {
             "type": "home",
-            "link": "https://github.com/Jayin",
+            "link": "https://github.com/Longertaki",
             "icon": ""
         }
     ],
