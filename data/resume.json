@@ -1,5 +1,5 @@
 {
-    "avatar": "/resume/data/1.jpg",
+    "avatar": "/resume/data/微信图片_20220126141900.jpg",
     "background_image": "https://9to5mac.files.wordpress.com/2014/08/yosemite-3.jpg?w=1200&h=&crop=1",
     "basicinfo": {
         "name": "Zhilong Song",
@@ -78,16 +78,16 @@
             "icon": "https://www.goodix.com/en/goodix-web/upload/icons/Goodixlogoen02.svg",
             "description": "Biometric hardware system - Hardware development",
             "time": "2021.08 - 2021.10",
-            "location": "Shenzhen China"
+            "location": "Shenzhen Guangdong China"
         },
         {
-            "name": "深圳XXX网络科技有限公司",
-            "name_link": "",
-            "title": "PHP开发工程师",
-            "icon": "",
-            "description": "基于开源商城系统OpenCart二次开发一外贸商城",
-            "time": "2014.07 - 2014.08",
-            "location": "广东 江门"
+            "name": "MINIEYE（Shenzhen Youjia Innov Tech Co., Ltd.）",
+            "name_link": "https://www.linkedin.com/company/minieye/?originalSubdomain=cn",
+            "title": "Hardware R&D Intern",
+            "icon": "https://media-exp1.licdn.com/dms/image/C560BAQFI7KNm_CPkRA/company-logo_200_200/0/1519872651066?e=1651104000&v=beta&t=0AN13c5B-q_Xvz9g40XeezHqUqUHIwdGbE-bxCBwL90",
+            "description": "Hardware Development of Level 2 ADAS products",
+            "time": "2020.08 - 2020.10",
+            "location": "Shenzhen Guangdong China"
         }
     ],
     "ProjectExperience": [
