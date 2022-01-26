@@ -30,6 +30,17 @@
             "icon": ""
         }
     ],
+	    "Educations": [
+        {
+            "name": "University College London",
+            "name_link": "https://www.ucl.ac.uk/mechanical-engineering/",
+            "title": "Bachelor · Mechanical Engineering",
+            "icon": "https://avatars0.githubusercontent.com/u/6442809?v=3&s=200",
+            "description": "1:1 honer degree",
+            "time": "2018-2021",
+            "location": "United Kingdom · London"
+        }
+    ],
     "Awards": [
         {
             "name": "中山大学第十三/四届学术科技节之软件大赛一等奖(蝉联2年第一)"
@@ -61,13 +72,13 @@
     ],
     "InternExperiences": [
         {
-            "name": "深圳XX网络科技有限公司",
-            "name_link": "",
-            "title": "前端开发工程师",
-            "icon": "",
-            "description": "负责微信html5创意广告微信网页开发，参与报喜鸟，淘宝，亚洲环保创新论坛等案例的开发。 使用团队自行开发的前端框架html5slide。",
-            "time": "2015.04 - 2015.09",
-            "location": "广东 深圳"
+            "name": "GOODIX Technology INC.",
+            "name_link": "https://www.goodix.com/en",
+            "title": "Hardware R&D Intern",
+            "icon": "https://www.goodix.com/en/goodix-web/upload/icons/Goodixlogoen02.svg",
+            "description": "Biometric hardware system - Hardware development",
+            "time": "2021.08 - 2021.10",
+            "location": "Shenzhen China"
         },
         {
             "name": "深圳XXX网络科技有限公司",
