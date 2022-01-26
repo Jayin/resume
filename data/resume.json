@@ -30,45 +30,40 @@
             "icon": ""
         }
     ],
-	    "Educations": [
-        {
-            "name": "University College London",
-            "name_link": "https://www.ucl.ac.uk/mechanical-engineering/",
-            "title": "Bachelor · Mechanical Engineering",
-            "icon": "https://avatars0.githubusercontent.com/u/6442809?v=3&s=200",
-            "description": "1:1 honer degree",
-            "time": "2018-2021",
-            "location": "United Kingdom · London"
-        }
-    ],
+	"Educations": [
+		{
+			"name": "University College London",
+			"name_link": "https://www.ucl.ac.uk/mechanical-engineering/",
+			"title": "Bachelor · Mechanical Engineering",
+			"icon": "https://avatars0.githubusercontent.com/u/6442809?v=3&s=200",
+			"description": "1:1 honer degree",
+			"time": "2018-2021",
+			"location": "United Kingdom · London"
+		}
+	],
+
     "Awards": [
         {
-            "name": "中山大学第十三/四届学术科技节之软件大赛一等奖(蝉联2年第一)"
+            "name": "1:1 Honer Degree in BSc Mechanical Engineering"
         },
         {
-            "name": "第X届XX杯全国软件专业人才设计与创业大赛C/C++本科B组广东赛区一等奖，全国决赛三等奖"
+            "name": "Head of department of Mechanical Engineering, UCL Chinese Student Union"
         },
-        {
-            "name": "第X届全国大学生网络商务创新应用大赛全国总决赛主题赛单项一等奖"
-        },
-        {
-            "name": "201X百度校园助手大赛优秀开发奖"
-        },
-        {
-            "name": "201X华南XX杯广东省Java程序员竞赛三等奖"
-        }
+	{
+	    "name": "Sophomore ta"
+	}
     ],
     "socialExperiences": [
-        {
-            "name": "加入XX移动开发工作室",
-            "name_link": "https://github.com/Jayin",
-            "description": "大学唯一加入的组织，期间与团队共同开发了校友录，东莞培训中心App，轻会议等多款产品"
-        },
-        {
-            "name": "组织X次校内开发者交流会",
-            "name_link": "https://github.com/Jayin",
-            "description": "受Ruby China Conf启发，也地处三线城市IT氛围不浓厚，所以自行组织了3次交流会"
-        }
+		{
+			"name": "Moon Launcher Entrepreneurship Activity",
+			"name_link": "https://mp.weixin.qq.com/s/P76vnoGLVSIfnvFgwN3ieA",
+			"description": "Join a young entrepreneur group and try to incubate a small project based on a brainstorming session for a week"
+		},
+		{
+			"name": "UCL Kpop Society",
+			"name_link": "https://www.instagram.com/uclkpopsociety/?hl=en",
+			"description": "Participated in club activities and performances in London for two consecutive years"
+		}
     ],
     "InternExperiences": [
         {
@@ -91,41 +86,33 @@
         }
     ],
     "ProjectExperience": [
-        {
-            "name": "XTips",
-            "name_link": "https://github.com/Jayin",
-            "title": "Android App, 作者",
-            "icon": "",
-            "description": "中山大学校园助手，2一键导入课程表/图书检索、收藏/及时获取校园资讯/查空课室/电费, 已为7+K同学服务",
-            "time": "2013.07 - 至今",
-            "location": ""
-        },
-        {
-            "name": "XX技能培训中心",
-            "name_link": "",
-            "title": "Android App/PHP后端, 项目负责人",
-            "icon": "",
-            "description": "主要负责PHP后端，采用ThinkPHP框架实现一个CMS、已经App广告管理后台；同时也负责Android端基础搭建",
-            "time": "2014.08 - 2014.12",
-            "location": ""
-        },
-        {
-            "name": "silentor",
-            "name_link": "https://github.com/Jayin/silentor",
-            "title": "JavaScript, forker",
-            "icon": "",
-            "description": "纯前端，基于markdown的博客",
-            "time": "2014.10 - 至今",
-            "location": ""
-        },
-        {
-            "name": "更多",
-            "name_link": "https://github.com/Jayin",
-            "title": "",
-            "icon": "",
-            "description": "",
-            "time": "",
-            "location": ""
-        }
+		{
+			"name": "Engineering Challenge Year 1",
+			"name_link": "https://www.youtube.com/watch?v=5ljHZk3j_G8",
+			"title": "Team Leader, Product Designer",
+			"icon": "",
+			"description": "Leading the team to independently design and manufacture a pole climbing car",
+			"time": "2019.3- 2019.4",
+			"location": "UCL, London"
+		},
+		{
+			"name": "Engineering Challenge Year 2",
+			"name_link": "https://www.youtube.com/watch?v=5ljHZk3j_G8",
+			"title": "Team Leader, Product Designer",
+			"icon": "",
+			"description": "Responsible for leading the team to design and produce a machine capable of constant-speed directional squash launching machine",
+			"time": "2020.03 - 2020.4",
+			"location": "UCL, London"
+		},
+		{
+			"name": "Study on the Triboelectric Nanogenerator Coating to Improve the Energy Harvesting Efficiency from the Rainwater impact",
+			"name_link": "https://www.discovery.com/science/raindrop-electricity--generating--blue-energy--from-rainfall",
+			"title": "",
+			"icon": "",
+			"description": "Year 3 Individual Project ",
+			"time": "2020.10 - 2021.5",
+			"location": "UCL, London"
+		},
+
     ]
 }
