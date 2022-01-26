@@ -11,7 +11,7 @@ var Resume = React.createClass({
                 </header>
                 <BasicInfo basicinfo={this.props.resume.basicinfo}/>
                 <Social social={this.props.resume.social}/>
-				<ExperienceList type="Education Experience" experiences={this.props.resume.Educations}/>
+		<ExperienceList type="Education Experience" experiences={this.props.resume.Educations}/>
                 <ExperienceList type="Awards" experiences={this.props.resume.Awards}/>
                 <ExperienceList type="Societies/Organizations" experiences={this.props.resume.socialExperiences}/>
                 <ExperienceList type="Internship" experiences={this.props.resume.InternExperiences}/>
