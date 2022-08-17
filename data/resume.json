@@ -79,16 +79,25 @@
             "icon": "https://www.goodix.com/en/goodix-web/upload/icons/Goodixlogoen02.svg",
             "description": "Biometric hardware system - Hardware development",
             "time": "2021.08 - 2021.10",
-            "location": "Shenzhen Guangdong China"
+            "location": "Shenzhen, Guangdong China"
         },
         {
-            "name": "MINIEYE（Shenzhen Youjia Innov Tech Co.）",
+            "name": "MINIEYE（Youjia Innov Tech Co.）",
             "name_link": "https://www.linkedin.com/company/minieye/?originalSubdomain=cn",
             "title": "Hardware R&D Intern",
             "icon": "/resume/data/MINIEYELOGO.png",
             "description": "Hardware Development of Level 2 ADAS products",
             "time": "2020.08 - 2020.10",
-            "location": "Shenzhen Guangdong China"
+            "location": "Shenzhen, Guangdong China"
+        },
+	{
+            "name": "Huawei Technologies Co., Ltd.",
+            "name_link": "https://www.huawei.com/en/",
+            "title": "N&C Hardware Design Engineer",
+            "icon": "http://t0.gstatic.com/images?q=tbn:ANd9GcRnOwv1cg0ecoaMA5yDI5pbf4jOW_Jhjv3BZeONrztC2Y0v_Wcm",
+            "description": "Hardware Development of Level 2 ADAS products",
+            "time": "2021.10 - 2022.3",
+            "location": "Songshan Lake, Dongguan Guangdong, China"
         }
     ],
     "ProjectExperience": [
@@ -113,11 +122,20 @@
 		{
 			"name": "Year 3 Individual Project",
 			"name_link": "https://www.discovery.com/science/raindrop-electricity--generating--blue-energy--from-rainfall",
-			"title": "",
+			"title": "Project Performer",
 			"icon": "",
 			"description": "Individual ProjectStudy on the Triboelectric Nanogenerator Coating to Improve the Energy Harvesting Efficiency from the Rainwater impact",
 			"time": "2020.10 - 2021.5",
 			"location": "UCL, London"
+		},
+	        {
+			"name": "Scienticfic Research Project",
+			"name_link": "",
+			"title": "Project Performer",
+			"icon": "",
+			"description": "A review on deep learning based fault diagnosis methods in mechanical engineering",
+			"time": "2022.3 - 2022.6",
+			"location": "Shenzhen,Guangdong"
 		}
 
     ]
