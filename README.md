@@ -3,7 +3,7 @@
 # 只需一分钟1分钟,轻松构建个人的在线简历（请点击项目右上角的star支持下😄）
 
 #### react + json 构建一份个人简历
-#### => [点击这里访问演示](http://www.jayinton.com/resume/build/) <=
+#### => [点击这里访问演示 http://jayin.github.io/resume/build/](http://jayin.github.io/resume/build/index.html) <=
 
 ### 使用
 
