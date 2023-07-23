@@ -4,18 +4,18 @@
     "basicinfo": {
         "name": "石健康",
         "description": "岂能尽如人意，但求无愧我心",
-        "school": "中山大学",
-        "profession": "计算机科学与技术",
+        "school": "梧州学院",
+        "profession": "电子信息与工程",
         "sex": "男",
         "education" : "本科",
-        "workage": "2012届毕业",
-        "phone": "15088888888",
-        "email": "tonjayin@gmail.com"
+        "workage": "2024届毕业",
+        "phone": "15078951416",
+        "email": "2831635399@qq.com"
     },
     "social":[
         {
             "type": "github",
-            "link": "https://github.com/Jayin",
+            "link": "https://github.com/wocaoa123",
             "icon": ""
         },
         {
@@ -35,7 +35,7 @@
         },
         {
             "type": "home",
-            "link": "https://github.com/Jayin",
+            "link": "https://github.com/wocaoa123",
             "icon": ""
         }
     ],
@@ -70,7 +70,7 @@
     ],
     "InternExperiences": [
         {
-            "name": "深圳XX网络科技有限公司",
+            "name": "南宁市城规地理科技中心",
             "name_link": "",
             "title": "前端开发工程师",
             "icon": "",
