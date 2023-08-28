@@ -41,88 +41,44 @@
     ],
     "Awards": [
         {
-            "name": "中山大学第十三/四届学术科技节之软件大赛一等奖(蝉联2年第一)"
-        },
-        {
-            "name": "第X届XX杯全国软件专业人才设计与创业大赛C/C++本科B组广东赛区一等奖，全国决赛三等奖"
-        },
-        {
-            "name": "第X届全国大学生网络商务创新应用大赛全国总决赛主题赛单项一等奖"
-        },
-        {
-            "name": "201X百度校园助手大赛优秀开发奖"
-        },
-        {
-            "name": "201X华南XX杯广东省Java程序员竞赛三等奖"
+            "name": "北京市海淀区中关村软件园人才基地培训中心项目评比三等奖"
         }
     ],
     "socialExperiences": [
         {
-            "name": "加入XX移动开发工作室",
-            "name_link": "https://github.com/Jayin",
-            "description": "大学唯一加入的组织，期间与团队共同开发了校友录，东莞培训中心App，轻会议等多款产品"
-        },
-        {
-            "name": "组织X次校内开发者交流会",
-            "name_link": "https://github.com/Jayin",
-            "description": "受Ruby China Conf启发，也地处三线城市IT氛围不浓厚，所以自行组织了3次交流会"
+            "name": "在学校加入了青年志愿者协会",
+            "name_link": "https://github.com/wocaoa123",
+            "description": "大学唯一加入的组织，主要在协会里参加各类志愿活动，例如各类志愿者，无偿献血等活动"
         }
     ],
     "InternExperiences": [
         {
-            "name": "南宁市城规地理科技中心",
+            "name": "广西城规勘测科技有限公司",
             "name_link": "",
             "title": "前端开发工程师",
             "icon": "",
-            "description": "负责微信html5创意广告微信网页开发，参与报喜鸟，淘宝，亚洲环保创新论坛等案例的开发。 使用团队自行开发的前端框架html5slide。",
-            "time": "2015.04 - 2015.09",
-            "location": "广东 深圳"
-        },
-        {
-            "name": "深圳XXX网络科技有限公司",
-            "name_link": "",
-            "title": "PHP开发工程师",
-            "icon": "",
-            "description": "基于开源商城系统OpenCart二次开发一外贸商城",
-            "time": "2014.07 - 2014.08",
-            "location": "广东 江门"
+            "description": "主要维护公司产品，改bug，加功能，二开，协助同事共同开发新软件",
+            "time": "2019.09 - 2020.06",
+            "location": "广西南宁"
         }
     ],
     "ProjectExperience": [
         {
             "name": "XTips",
-            "name_link": "https://github.com/Jayin",
-            "title": "Android App, 作者",
+            "name_link": "https://www.bilibili.com/video/BV1vx4y1f73y/?vd_source=6a6cd790a0fb2fc84653fb4e0e84699a",
+            "title": "基于unity开发的-黑暗女王的复活",
             "icon": "",
-            "description": "中山大学校园助手，2一键导入课程表/图书检索、收藏/及时获取校园资讯/查空课室/电费, 已为7+K同学服务",
-            "time": "2013.07 - 至今",
+            "description": "b站视频简介观看详情https://www.bilibili.com/video/BV1vx4y1f73y/?vd_source=6a6cd790a0fb2fc84653fb4e0e84699a",
+            "time": "2023.06 - 至今",
             "location": ""
         },
         {
-            "name": "XX技能培训中心",
+            "name": "基于spring boot加vue开发的-OA系统",
             "name_link": "",
-            "title": "Android App/PHP后端, 项目负责人",
+            "title": "前端开发",
             "icon": "",
-            "description": "主要负责PHP后端，采用ThinkPHP框架实现一个CMS、已经App广告管理后台；同时也负责Android端基础搭建",
-            "time": "2014.08 - 2014.12",
-            "location": ""
-        },
-        {
-            "name": "silentor",
-            "name_link": "https://github.com/Jayin/silentor",
-            "title": "JavaScript, forker",
-            "icon": "",
-            "description": "纯前端，基于markdown的博客",
-            "time": "2014.10 - 至今",
-            "location": ""
-        },
-        {
-            "name": "更多",
-            "name_link": "https://github.com/Jayin",
-            "title": "",
-            "icon": "",
-            "description": "",
-            "time": "",
+            "description": "主要负责vue前端工作 ，对接后端接口实现页面功能，主要使用了uni官网的模板以及api开发",
+            "time": "2020.04 - 2020.05",
             "location": ""
         }
     ]
