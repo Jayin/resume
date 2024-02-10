@@ -1,29 +1,203 @@
+
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Resume</title>
-    <link rel="stylesheet" href="./style/normalize.css">
-    <link rel="stylesheet" href="./style/font-awesome/font-awesome.css">
-    <link rel="stylesheet" href="./style/animate.css">
-    <link rel="stylesheet" href="component/Resume/main.css">
-    <link rel="stylesheet" href="./style/index.css">
+    <title>下雪背景效果和爱心</title>
+    <style type="text/css">
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            overflow: hidden;
+			 background-color: #FCE8F8;
+        }
+ 
+        #snow-container {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: -1;
+        }
+ 
+        .snowflake {
+            position: absolute;
+            width: 10px;
+            height: 10px;
+            background-color: #fff;
+            border-radius: 50%;
+            opacity: 0.8;
+            pointer-events: none;
+            animation: snowfall linear infinite;
+        }
+ 
+        @keyframes snowfall {
+            0% {
+                transform: translateY(-100%);
+            }
+            100% {
+                transform: translateY(100vh);
+            }
+        }
+ 
+        .heart {
+            width: 200px;
+            height: 200px;
+            position: relative;
+            animation: heartbeat 1s infinite;
+            transform-origin: center center;
+        }
+ 
+        .heart:before,
+        .heart:after {
+            content: "";
+            background-color: red;
+            border-radius: 50px 50px 0 0;
+            position: absolute;
+            top: 0;
+        }
+ 
+        .heart:before {
+            left: 100px;
+            width: 100px;
+            height: 160px;
+            transform: rotate(-45deg);
+            transform-origin: 0 100%;
+        }
+ 
+        .heart:after {
+            left: 0;
+            width: 100px;
+            height: 160px;
+            transform: rotate(45deg);
+            transform-origin: 100% 100%;
+        }
+ 
+        #timeElapsed {
+            text-align: center;
+            font-size: 24px;
+            margin-top: 20px;
+        }
+ 
+        @keyframes heartbeat {
+            0% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.2);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+ 
+        @keyframes falling {
+            0% {
+                transform: translateY(-100vh);
+            }
+            100% {
+                transform: translateY(100vh);
+            }
+        }
+ 
+        .sakura {
+            position: absolute;
+            top: -20px;
+            left: -20px;
+            width: 40px;
+            height: 40px;
+            background-image: url('https://www.unicode.org/emoji/charts/full-emoji-list.html#1f338'); /* 🌸的Unicode转义序列 */
+            background-size: cover;
+            animation: falling linear infinite;
+            animation-duration: 10s;
+        }
+    </style>
 </head>
 <body>
-    <div id="container">
-        <div style="text-align: center;">
-            <i class="fa fa-4x fa-spinner fa-pulse"></i>
-            <p>
-                正在加载...
-            </p>
-        </div>
-    </div>
-    <footer>
-        build on <a href="https://github.com/jayin/resume">Resume</a> by <a href="https://github.com/jayin">Jayin</a>
-    </footer>
-    <script src="./script/fetch.js"></script>
-    <script src="./script/react.js"></script>
-    <script src="component/Resume/main.js"></script>
+    <div id="snow-container"></div>
+    <div class="heart"></div>
+    <div id="timeElapsed"></div>
+ 
+    <script>
+        function getTimeElapsed() {
+            var startDate = new Date("2022-01-01"); // 设置开始日期，替换为实际的起始日期
+            var currentDate = new Date();
+            var timeDiff = currentDate - startDate;
+ 
+            var milliseconds = timeDiff % 1000;
+            timeDiff = Math.floor(timeDiff / 1000);
+            var seconds = timeDiff % 60;
+            timeDiff = Math.floor(timeDiff / 60);
+            var minutes = timeDiff % 60;
+            timeDiff = Math.floor(timeDiff / 60);
+            var hours = timeDiff % 24;
+            timeDiff = Math.floor(timeDiff / 24);
+            var days = timeDiff;
+ 
+            var timeString = "宝贝我们已经在一起 " + days + " 天 " + hours + " 小时 " + minutes + " 分钟 " + seconds + " 秒了";
+ 
+            document.getElementById("timeElapsed").textContent = timeString;
+        }
+ 
+        setInterval(getTimeElapsed, 1000);
+    </script>
+ 
+    <script>
+        function createSnowflake() {
+            const snowflake = document.createElement('div');
+            snowflake.classList.add('snowflake');
+            snowflake.style.left = Math.random() * window.innerWidth + 'px';
+            snowflake.style.animationDuration = Math.random() * 3 + 2 + 's';
+            snowflake.style.opacity = Math.random();
+            snowflake.style.fontSize = Math.random() * 10 + 10 + 'px';
+ 
+            const randomColor = getRandomColor();
+            snowflake.style.backgroundColor = randomColor;
+ 
+            snowflake.innerHTML = '命运之光'; // You can customize the snowflake symbol here
+ 
+            return snowflake;
+        }
+ 
+        function getRandomColor() {
+            const letters = '0123456789ABCDEF';
+            let color = '#';
+            for (let i = 0; i < 6; i++) {
+                color += letters[Math.floor(Math.random() * 16)];
+            }
+            return color;
+        }
+ 
+        function snowfall() {
+            const snowContainer = document.getElementById('snow-container');
+            const numSnowflakes = 50; // Adjust the number of snowflakes here
+ 
+            for (let i = 0; i < numSnowflakes; i++) {
+                const snowflake = createSnowflake();
+                snowContainer.appendChild(snowflake);
+            }
+        }
+ 
+        snowfall();
+    </script>
+ 
+    <script>
+        function createSakura() {
+            var sakura = document.createElement("div");
+            sakura.className = "sakura";
+            sakura.style.left = Math.random() * 100 + "vw";
+            sakura.style.animationDelay = Math.random() * 5 + "s";
+            document.body.appendChild(sakura);
+ 
+            setTimeout(function () {
+                sakura.remove();
+            }, 10000);
+        }
+ 
+        setInterval(createSakura, 200);
+    </script>
 </body>
-</html>
